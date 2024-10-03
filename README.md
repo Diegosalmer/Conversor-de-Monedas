@@ -1,7 +1,9 @@
 💱 Conversor de Monedas 🌍
+
 ¡Bienvenido al Conversor de Monedas! Esta aplicación, desarrollada en Java utilizando Maven, te permite convertir entre varias monedas de forma rápida y sencilla. Con la ayuda de la librería Gson y la API ExchangeRate-API, obtendrás tasas de cambio actualizadas al instante.
 
 🪙 Monedas Soportadas
+
 El conversor permite la conversión entre las siguientes monedas:
 
 🇦🇷 ARS - Peso argentino
@@ -10,7 +12,9 @@ El conversor permite la conversión entre las siguientes monedas:
 🇨🇱 CLP - Peso chileno
 🇨🇴 COP - Peso colombiano
 🇺🇸 USD - Dólar estadounidense
+
 🛠️ Tecnologías Utilizadas
+
 Java: Lenguaje principal para el desarrollo de la aplicación.
 Maven: Herramienta de gestión de proyectos y dependencias.
 Gson: Librería para manipulación de JSON en Java.
@@ -45,13 +49,17 @@ Ejecuta la aplicación:
 bash
 Copiar código
 java -jar target/conversor-de-monedas.jar
+
 🔄 Funcionamiento
+
 La aplicación solicita una cantidad y las monedas de origen y destino. Utiliza la API ExchangeRate-API para obtener la tasa de conversión más reciente y, con la ayuda de Gson, procesa la información en formato JSON. La conversión se realiza de manera eficiente, brindando resultados precisos y rápidos.
 
 📝 Licencia
+
 Este proyecto está licenciado bajo los términos de la MIT License.
 
 📢 Contribuciones
+
 Las contribuciones son bienvenidas. Si deseas colaborar, por favor sigue estos pasos:
 
 Haz un fork del repositorio.
