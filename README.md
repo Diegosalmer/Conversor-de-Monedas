@@ -60,3 +60,5 @@ Realiza tus cambios y haz un commit (git commit -m 'Agrega una nueva caracterís
 Envía tus cambios a tu fork (git push origin feature/nueva-caracteristica).
 Abre un pull request.
 ¡Gracias por usar el Conversor de Monedas! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue.
+
+Puedes ajustar la apariencia de tu README usando este formato. Si necesitas más modificaciones o detalles, ¡házmelo saber!
