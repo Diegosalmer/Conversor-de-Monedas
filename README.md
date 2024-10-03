@@ -1,54 +1,72 @@
-💱 Conversor de Monedas 🌍
+# 💱 **Conversor de Monedas** 🌍
 
-¡Bienvenido al Conversor de Monedas! Esta aplicación, desarrollada en Java utilizando Maven, te permite convertir entre varias monedas de forma rápida y sencilla. Con la ayuda de la librería Gson y la API ExchangeRate-API, obtendrás tasas de cambio actualizadas al instante.
+¡Bienvenido al **Conversor de Monedas**! Esta aplicación, desarrollada en **Java** utilizando **Maven**, te permite convertir entre varias monedas de forma rápida y sencilla. Con la ayuda de la librería **Gson** y la API **ExchangeRate-API**, obtendrás tasas de cambio actualizadas al instante.
 
-🪙 Monedas Soportadas
+---
+
+## 🪙 **Monedas Soportadas**
 
 El conversor permite la conversión entre las siguientes monedas:
 
-🇦🇷 ARS - Peso argentino
-🇧🇴 BOB - Boliviano boliviano
-🇧🇷 BRL - Real brasileño
-🇨🇱 CLP - Peso chileno
-🇨🇴 COP - Peso colombiano
-🇺🇸 USD - Dólar estadounidense
+- 🇦🇷 **ARS** - Peso argentino
+- 🇧🇴 **BOB** - Boliviano boliviano
+- 🇧🇷 **BRL** - Real brasileño
+- 🇨🇱 **CLP** - Peso chileno
+- 🇨🇴 **COP** - Peso colombiano
+- 🇺🇸 **USD** - Dólar estadounidense
 
-🛠️ Tecnologías Utilizadas
+---
 
-Java: Lenguaje principal para el desarrollo de la aplicación.
-Maven: Herramienta de gestión de proyectos y dependencias.
-Gson: Librería para manipulación de JSON en Java.
-ExchangeRate-API: API para obtener tasas de cambio en tiempo real.
-⚙️ Requisitos Previos
+## 🛠️ **Tecnologías Utilizadas**
+
+- **Java**: Lenguaje principal para el desarrollo de la aplicación.
+- **Maven**: Herramienta de gestión de proyectos y dependencias.
+- **Gson**: Librería para manipulación de JSON en Java.
+- **ExchangeRate-API**: API para obtener tasas de cambio en tiempo real.
+
+---
+
+## ⚙️ **Requisitos Previos**
+
 Antes de ejecutar el proyecto, asegúrate de tener instalados:
 
-☕ JDK 17
-📦 Maven
-🖥️ IntelliJ IDEA (recomendado para el desarrollo)
-🌐 Conexión a Internet (para acceder a las tasas de cambio)
-🚀 Instrucciones para Ejecutar
+- ☕ **JDK 17**
+- 📦 **Maven**
+- 🖥️ **IntelliJ IDEA** (recomendado para el desarrollo)
+- 🌐 **Conexión a Internet** (para acceder a las tasas de cambio)
+
+---
+
+## 🚀 **Instrucciones para Ejecutar**
+
 Sigue estos pasos para ejecutar el conversor de monedas en tu máquina local:
 
-Clona el repositorio:
+1. **Clona el repositorio:**
 
-bash
-Copiar código
-git clone https://github.com/usuario/conversor-de-monedas.git
+   ```bash
+   git clone https://github.com/usuario/conversor-de-monedas.git
 Accede al directorio del proyecto:
 
 bash
+Mostrar siempre los detalles
+
 Copiar código
 cd conversor-de-monedas
 Compila el proyecto usando Maven:
 
 bash
+Mostrar siempre los detalles
+
 Copiar código
 mvn clean install
 Ejecuta la aplicación:
 
 bash
+Mostrar siempre los detalles
+
 Copiar código
 java -jar target/conversor-de-monedas.jar
+
 
 🔄 Funcionamiento
 
@@ -67,6 +85,4 @@ Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
 Realiza tus cambios y haz un commit (git commit -m 'Agrega una nueva característica').
 Envía tus cambios a tu fork (git push origin feature/nueva-caracteristica).
 Abre un pull request.
-¡Gracias por usar el Conversor de Monedas! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue.
-
-Puedes ajustar la apariencia de tu README usando este formato. Si necesitas más modificaciones o detalles, ¡házmelo saber!
+¡Gracias por usar el Conversor de Monedas! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue. 
